@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.AddAPlace"
+  Padding="20">
+
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"></ColumnDefinition>
+     <ColumnDefinition Width="30"></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"></RowDefinition>
+    <RowDefinition Height="*"></RowDefinition>
+   <RowDefinition Height="*"></RowDefinition>
+    <RowDefinition Height="*"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
+    
+    </Grid.RowDefinitions>
+  
+  
+  <Entry Placeholder="Name" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"></Entry>
+    <Entry Placeholder="Addreses, coordinates" Grid.Column="0" Grid.Row="1"></Entry>
+    <Button Text="GPS" Grid.Column="1" Grid.Row="1"></Button>
+  <Label Text="Placeholder for photos" Grid.Column="0" Grid.Row="2" Grid.RowSpan="2"></Label>
+    <Button Text="Photo" Grid.Row="3" Grid.Column="2"></Button>
+  <Button Text="Add" GridRow="4" Grid.Column="0" Grid.ColumnSpan="2"></Button>
+  
+  
+  </Grid>
+    
+
+           
+    
+  
+
+
+
+
+
+  </StackLayout>
+  
+
+</ContentPage>
